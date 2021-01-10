@@ -1,38 +1,219 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
+
+#root {
+  height: 100%;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+html, body{
+  height: 100%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.info {
+  padding-bottom: 50px;
+  padding-right: 100px;
+  min-width: 269px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.LinkedIn:hover, .Github:hover, .Mail:hover {
+  color: rgb(100, 21, 255);
+}
+
+.LinkedIn, .Github, .Mail {
+  color: rgb(113,128,150);
+  font-size: 28px;
+}
+
+.scrollTop:hover {
+  opacity: 1;
+  color: rgb(100, 21, 255);
+}
+
+#SeaTransUserFlow, #SeaTransLowFi {
+  width: 360px;
+  height: 480px;
+}
+
+@media (min-width: 300px) {
+  html, body { /* MOBILE */
+    font-size: 18px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .scrollTop {
+    position: fixed;
+    width: 100%;
+    bottom: 40px;
+    justify-content: flex-end;
+    z-index: 1000;
+    animation: fadeIn 0.3s;
+    transition: opacity 0.4s;
+    opacity: 0.75;
+    padding-right: 75px;
+    font-size: 25px;
+  }
+
+  .pageHeader {
+    margin-top: 50px;
+  }
+
+  .pageHeader h3 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .pageLayout {
+    /*padding: 0 36px;*/
+  }
+
+  .pageLayout h6 {
+    font-weight: 700;
+  }
+
+  .details {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  #SeaTransType, #WSWSType {
+    width: 115%;
+    height: 100%;
+    cursor: zoom-in;
+  }
+
+  #SeaTransPDFs {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+
+  #SeaTransUserFlow, #SeaTransLowFi {
+    width: 240px;
+    height: 320px;
+    margin-bottom: 25px;
+  }
+
+  #SeaTransColor, #SeaTransMoodBoard, #SeaTransIcons,
+  #BaseCampStoryBoard,
+  #WSWSColor, #WSWSPillars, #WSWSLogo, #WSWSMockups,
+  #JPSSketchV1, #JPSSketchV2 {
+    width: 100%;
+    height: 100%;
+    cursor: zoom-in;
+  }
+
+  #figmaAppFrame {
+    width: 232px;
+    height: 466px;
+    border: 1px solid rgba(0, 0, 0, 0);
+  }
+
+  #figmaKioskFrame {
+    width: 383px;
+    height: 333px;
+    border: 1px solid rgba(0, 0, 0, 0);
+  }
+
+  #SeaTransWayfinding {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+    cursor: zoom-in;
+  }
+}
+
+@media (min-width: 768px) {
+  html, body { /* DESKTOP & TABLET */
+    font-size: 21px;
+  }
+
+  .scrollTop {
+    position: fixed;
+    width: 100%;
+    bottom: 40px;
+    /*align-items: center;*/
+    /*height: 40px;*/
+    justify-content: flex-end;
+    z-index: 1000;
+    /*cursor: pointer;*/
+    animation: fadeIn 0.3s;
+    transition: opacity 0.4s;
+    opacity: 0.75;
+    padding-right: 90px;
+    font-size: 30px;
+  }
+
+  .pageHeader {
+    margin-top: 100px;
+  }
+
+  .pageHeader h3 {
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .pageLayout {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 100px;
+  }
+
+  .details {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+
+  #SeaTransMoodBoard, #JPSSketchV1 {
+    width: 75%;
+    height: 100%;
+    margin-top: -25px;
+    cursor: zoom-in;
+  }
+
+  #SeaTransColor, #SeaTransType {
+    width: 69%;
+    height: 100%;
+    cursor: zoom-in;
+  }
+
+  #SeaTransPDFs {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #SeaTransUserFlow, #SeaTransLowFi {
+    width: 720px;
+    height: 960px;
+    margin-right: 48px;
+  }
+
+  #SeaTransIcons, #WSWSMockups, #JPSSketchV2 {
+    width: 75%;
+    height: 100%;
+    cursor: zoom-in;
+  }
+
+  #figmaAppFrame {
+    width: 464px;
+    height: 933px;
+    border: 1px solid rgba(0, 0, 0, 0);
+  }
+
+  #figmaKioskFrame {
+    width: 1100px;
+    height: 900px;
+    border: 1px solid rgba(0, 0, 0, 0);
+  }
+
+  #SeaTransWayfinding {
+    width: 69%;
+    height: 100%;
+    margin-bottom: 40px;
+    cursor: zoom-in;
   }
 }
