@@ -35,7 +35,7 @@ export default function About() {
                     an undergraduate studying
                     <a href="https://www.hcde.washington.edu/" style={{color: "rgb(100, 21, 255)"}}> Human Centered Design & Engineering </a>
                     at the University of Washington. This site is used to document and showcase the work I'm doing
-                    in HCDE XXX: Class Name (Quarter Year), led by Professor. To see the other work
+                    in HCDE 533: Digital Fabrication (Spring 2021), led by Professor Nadya Peek. To see the other work
                     that I have done, you can visit my <a href="https://www.kennyle.com/" style={{color: "rgb(100, 21, 255)"}}> portfolio</a>.
                 </Paragraph>
             </LeftColumn>

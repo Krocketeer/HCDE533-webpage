@@ -187,6 +187,16 @@ html, body{
     padding-top: 2.5rem !important;
   }
 
+  /*LocalHost cover image*/
+  .Cover__TwoColumn-sc-6xzs9y-1.cPjmIN {
+    padding-bottom: 2rem;
+  }
+
+  /*Production cover image*/
+  .Cover__TwoColumn-sc-6xzs9y-1.eAfEzB {
+    padding-bottom: 0;
+  }
+
   #SeaTransMoodBoard {
     width: 75%;
     height: 100%;

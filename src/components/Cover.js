@@ -3,6 +3,7 @@ import styled from "styled-components";
 import tw from "twin.macro";
 import { ReactComponent as SvgDecoratorBlob1 } from "../images/svg-decorator-blob-1.svg";
 import serverIllustration from "../images/server-secure-illustration.svg"
+import printerIllustration from "../images/3d-printer-svgrepo-com.svg"
 import { css } from "styled-components/macro"; //Despite what ESLint says, is necessary
 
 const Container = tw.div`relative`;
@@ -26,13 +27,13 @@ export default function Cover() {
         <TwoColumn>
             <LeftColumn>
                 <Heading>
-                    <span tw="text-primary-500">HCDE XXX:</span>
-                    <div>Class Name</div>
+                    <span tw="text-primary-500">HCDE 533:</span>
+                    <div>Digital Fabrication</div>
                 </Heading>
             </LeftColumn>
             <RightColumn>
                 <IllustrationContainer>
-                    <img tw="min-w-0 w-full max-w-lg xl:max-w-3xl" src={serverIllustration} alt="Design Illustration" />
+                    <img tw="min-w-0 w-full max-w-lg xl:max-w-3xl" style={{width: "20rem", height: "20rem"}} src={printerIllustration} alt="Design Illustration" />
                 </IllustrationContainer>
             </RightColumn>
         </TwoColumn>
