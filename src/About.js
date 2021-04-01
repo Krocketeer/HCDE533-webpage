@@ -3,7 +3,7 @@ import styled from "styled-components";
 import tw from "twin.macro";
 import { ReactComponent as SvgDecoratorBlob1 } from "./images/svg-decorator-blob-1.svg";
 import serverIllustrationImageSrc from "./images/server-illustration-2.svg";
-// import { css } from "styled-components/macro";
+import { css } from "styled-components/macro";
 
 const Container = tw.div`relative`;
 const TwoColumn = tw.div`flex flex-col lg:flex-row lg:items-center max-w-screen-xl mx-auto py-20 md:py-24`;
@@ -35,7 +35,7 @@ export default function About() {
                     an undergraduate studying
                     <a href="https://www.hcde.washington.edu/" style={{color: "rgb(100, 21, 255)"}}> Human Centered Design & Engineering </a>
                     at the University of Washington. This site is used to document and showcase the work I'm doing
-                    in HCDE 439: Physical Computing (Winter 2021), led by Professor Nadya Peek. To see the other work
+                    in HCDE XXX: Class Name (Quarter Year), led by Professor. To see the other work
                     that I have done, you can visit my <a href="https://www.kennyle.com/" style={{color: "rgb(100, 21, 255)"}}> portfolio</a>.
                 </Paragraph>
             </LeftColumn>

@@ -26,8 +26,8 @@ export default function Cover() {
         <TwoColumn>
             <LeftColumn>
                 <Heading>
-                    <span tw="text-primary-500">HCDE 439:</span>
-                    <div>Physical Computing</div>
+                    <span tw="text-primary-500">HCDE XXX:</span>
+                    <div>Class Name</div>
                 </Heading>
             </LeftColumn>
             <RightColumn>

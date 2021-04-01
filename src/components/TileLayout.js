@@ -94,7 +94,7 @@ const assignment1 =()=> ({
     imageSrc: "https://images.unsplash.com/photo-1499678329028-101435549a4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
     category: "Assignment 1",
     date: "Category",
-    title: "Blink!",
+    title: "Assignment 1 Name",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     url: "/",
     featured: true
@@ -103,7 +103,7 @@ const assignment2 =()=> ({
     imageSrc: "https://images.unsplash.com/photo-1499678329028-101435549a4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
     category: "Assignment 2",
     date: "Assignment 2",
-    title: "Fade!",
+    title: "Assignment 2 Name",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     url: "/",
     featured: false
@@ -112,7 +112,7 @@ const assignment3 =()=> ({
     imageSrc: "https://images.unsplash.com/photo-1499678329028-101435549a4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
     category: "Assignment 3",
     date: "Assignment 3",
-    title: "Input Output!",
+    title: "Assignment 3 Name",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     url: "/",
     featured: false
@@ -121,7 +121,7 @@ const assignment4 =()=> ({
     imageSrc: "https://images.unsplash.com/photo-1499678329028-101435549a4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
     category: "Assignment 4",
     date: "Assignment 4",
-    title: "Libaries!",
+    title: "Assignment 4 Name",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     url: "/",
     featured: false
@@ -130,7 +130,7 @@ const assignment5 =()=> ({
     imageSrc: "https://images.unsplash.com/photo-1499678329028-101435549a4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
     category: "Assignment 5",
     date: "Assignment 5",
-    title: "[Higher] Voltage & Transistors!",
+    title: "Assignment 5 Name",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     url: "/",
     featured: false
@@ -139,7 +139,7 @@ const assignment6 =()=> ({
     imageSrc: "https://images.unsplash.com/photo-1499678329028-101435549a4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
     category: "Assignment 6",
     date: "Assignment 6",
-    title: "Talking to the Web!  _",
+    title: "Assignment 6 Name",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     url: "/",
     featured: false
@@ -148,7 +148,7 @@ const finalProject =()=> ({
     imageSrc: "https://images.unsplash.com/photo-1499678329028-101435549a4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
     category: "Final Project",
     date: "Final Project",
-    title: "To Be Titled Later On!    _",
+    title: "Assignment 7 Name",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     url: "/",
     featured: false
