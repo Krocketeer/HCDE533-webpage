@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import AnimationRevealPage from "../helpers/AnimationRevealPage.js";
-import { Container, ContentWithPaddingXl } from "../components/misc/Layouts";
+import { Container, ContentWithPaddingXl } from "./misc/Layouts";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro";
-import { SectionHeading } from "../components/misc/Headings";
-import { PrimaryButton } from "../components/misc/Buttons";
+import { SectionHeading } from "./misc/Headings";
+import { PrimaryButton } from "./misc/Buttons";
+
+import CookieCutterCover from "../images/CookieCutters/CookieCuttersCover.png"
 
 const HeadingRow = tw.div`flex`;
 const Heading = tw(SectionHeading)`text-gray-900`;
@@ -91,12 +93,12 @@ const getPlaceholderPost = () => ({
     url: "https://reddit.com"
 });
 const assignment1 =()=> ({
-    imageSrc: "https://images.unsplash.com/photo-1499678329028-101435549a4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
+    imageSrc: CookieCutterCover,
     category: "Assignment 1",
-    date: "Category",
-    title: "Assignment 1 Name",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    url: "/",
+    date: "",
+    title: "First Rhino Model",
+    description: "Using images to create cookie cutters models in Rhino",
+    url: "/CookieCutters",
     featured: true
 })
 const assignment2 =()=> ({
