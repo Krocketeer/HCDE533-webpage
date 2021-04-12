@@ -30,3 +30,6 @@ yarn-error.log*
 ### Firebase Patch ###
 .runtimeconfig.json
 .firebase/
+
+# Local Project Files
+ProjectFiles/HW1CookieCutters/Local
