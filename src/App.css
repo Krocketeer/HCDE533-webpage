@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
 
+
 #root {
   height: 100%;
   width: 100%;
@@ -135,7 +136,7 @@ html, body{
 
 @media (min-width: 768px) {
   html, body { /* DESKTOP & TABLET */
-    font-size: 21px;
+    font-size: 21px !important;
   }
 
   .scrollTop {
@@ -200,7 +201,7 @@ html, body{
   #SeaTransMoodBoard {
     width: 75%;
     height: 100%;
-    margin-top: -25px;
+    /*margin-top: -25px;*/
     cursor: zoom-in;
   }
 

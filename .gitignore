@@ -32,4 +32,6 @@ yarn-error.log*
 .firebase/
 
 # Local Project Files
-ProjectFiles/HW1CookieCutters/Local
+ProjectFiles/CE3PRO_Bed_Level_190x190.gcode
+ProjectFiles/HW1CookieCutters/local
+ProjectFiles/HW2CubesAndTubes/local
