@@ -8,6 +8,7 @@ import { SectionHeading } from "./misc/Headings";
 import { PrimaryButton } from "./misc/Buttons";
 
 import CookieCutterCover from "../images/CookieCutters/CookieCuttersCover.png"
+import CubesTubesCover from "../images/CubesTubes/CubesTubesCover.png"
 
 const HeadingRow = tw.div`flex`;
 const Heading = tw(SectionHeading)`text-gray-900`;
@@ -45,7 +46,7 @@ const LoadMoreButton = tw(PrimaryButton)`mt-16 mx-auto`;
 
 export default ({
                     headingText = "Projects",
-                    posts = [assignment1(), assignment2(), assignment3(), assignment4(), assignment5(), assignment6(), finalProject()]
+                    posts = [assignment2(), assignment1(), assignment3(), assignment4(), assignment5(), assignment6(), finalProject()]
                 }) => {
     const [visible, setVisible] = useState(7);
     const onLoadMoreClick = () => {
@@ -99,16 +100,16 @@ const assignment1 =()=> ({
     title: "First Rhino Model",
     description: "Using images to create cookie cutters models in Rhino",
     url: "/CookieCutters",
-    featured: true
+    featured: false
 })
 const assignment2 =()=> ({
-    imageSrc: "https://images.unsplash.com/photo-1499678329028-101435549a4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
+    imageSrc: CubesTubesCover,
     category: "Assignment 2",
-    date: "Assignment 2",
-    title: "Assignment 2 Name",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    url: "/",
-    featured: false
+    date: "",
+    title: "Cubes & Tubes",
+    description: "Getting started with 3D printing using both Rhino to model and Cura to slice",
+    url: "/CubesTubes",
+    featured: true
 })
 const assignment3 =()=> ({
     imageSrc: "https://images.unsplash.com/photo-1499678329028-101435549a4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",

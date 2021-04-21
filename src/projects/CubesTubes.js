@@ -213,39 +213,9 @@ const styles = {
 const links = {
     youtubeTutorial: "https://www.youtube.com/watch?v=me8Qrwh907Q",
     bedLeveling: "https://www.youtube.com/watch?v=5eqTmb01cBk",
-    androidLogo: "https://github.com/Krocketeer/HCDE533-webpage/blob/master/ProjectFiles/HW1CookieCutters/AndroidLogo.png",
-    apolloIcon: "https://github.com/Krocketeer/HCDE533-webpage/blob/master/ProjectFiles/HW1CookieCutters/ApolloIcon.png",
-    dog: "https://github.com/Krocketeer/HCDE533-webpage/blob/master/ProjectFiles/HW1CookieCutters/Dog.png",
-    rhinoSTLFiles: "https://github.com/Krocketeer/HCDE533-webpage/tree/master/ProjectFiles/HW1CookieCutters",
+    rhinoSTLFiles: "https://github.com/Krocketeer/HCDE533-webpage/tree/master/ProjectFiles/HW2CubesAndTubes",
 }
 
 const lightboxOptions = {
     showDownloadButton: false,
 }
-
-const data = [
-    {
-        key: '1',
-        firstName: 'John',
-        lastName: 'Brown',
-        age: 32,
-        address: 'New York No. 1 Lake Park',
-        tags: ['nice', 'developer'],
-    },
-    {
-        key: '2',
-        firstName: 'Jim',
-        lastName: 'Green',
-        age: 42,
-        address: 'London No. 1 Lake Park',
-        tags: ['loser'],
-    },
-    {
-        key: '3',
-        firstName: 'Joe',
-        lastName: 'Black',
-        age: 32,
-        address: 'Sidney No. 1 Lake Park',
-        tags: ['cool', 'teacher'],
-    },
-];
