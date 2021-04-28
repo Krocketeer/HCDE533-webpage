@@ -172,7 +172,7 @@ const styles = {
 
 const links = {
     hexagon: "https://www.youtube.com/watch?v=thOifuHs6eY",
-    gitFiles: "https://github.com/Krocketeer/HCDE533-webpage/tree/master/ProjectFiles/HW2CubesAndTubes",
+    gitFiles: "https://github.com/Krocketeer/HCDE533-webpage/tree/master/ProjectFiles/HW3ClipNest",
 }
 
 const lightboxOptions = {
