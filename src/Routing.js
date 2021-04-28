@@ -5,6 +5,7 @@ import Home from "./Home"
 import ProjectTemplate from './projects/ProjectTemplate'
 import CookieCutters from "./projects/CookieCutters"
 import CubesTubes from "./projects/CubesTubes";
+import ClipNest from "./projects/ClipNest"
 
 export default function Routing() {
     return <Switch>
@@ -12,6 +13,7 @@ export default function Routing() {
         <Route path="/about" exact component={About} />
         <Route path="/CookieCutters" exact component={CookieCutters} />
         <Route path="/CubesTubes" exact component={CubesTubes} />
+        <Route path="/ClipNest" exact component={ClipNest} />
         <Route path="*" component={Home}/>
     </Switch>
 }

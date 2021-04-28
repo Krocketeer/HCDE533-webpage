@@ -132,6 +132,11 @@ html, body{
     margin-bottom: 30px;
     cursor: zoom-in;
   }
+
+  .DemoVideo {
+    width: 17rem;
+    height: 10rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -259,5 +264,10 @@ html, body{
     width: 49%;
     height: 100%;
     margin-bottom: 25px;
+  }
+
+  .DemoVideo {
+    width: 65vw;
+    height: 36vw;
   }
 }
