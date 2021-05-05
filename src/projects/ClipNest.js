@@ -52,7 +52,7 @@ export default function ClipNest() {
                         <div id="problemSpace" style={{paddingBottom: "50px"}}>
                             <h6 tw="text-primary-500">The Goal</h6>
                             <p>
-                                To create a gGrasshopper definition of a clip that connects a piece of cardboard to
+                                To create a Grasshopper definition of a clip that connects a piece of cardboard to
                                 another piece of cardboard. The Grasshopper definition should allow the variation of the
                                 thickness of the cardboard. In addition, create a Grasshopper definition of a nesting
                                 structure with any geometry
