@@ -128,7 +128,7 @@ const assignment4 =()=> ({
     date: "",
     title: "Meshes",
     description: "Using Rhino to modify and combine existing meshes",
-    url: "/",
+    url: "/Mesh",
     featured: true
 })
 const assignment5 =()=> ({
