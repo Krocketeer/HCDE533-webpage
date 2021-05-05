@@ -115,8 +115,7 @@ const styles = {
 const links = {
     blueShell: "https://www.thingiverse.com/thing:1952442/files",
     dragon: "https://www.thingiverse.com/thing:1624412",
-    hexagon: "https://www.youtube.com/watch?v=thOifuHs6eY",
-    gitFiles: "https://github.com/Krocketeer/HCDE533-webpage/tree/master/ProjectFiles/HW3ClipNest",
+    gitFiles: "https://github.com/Krocketeer/HCDE533-webpage/tree/master/ProjectFiles/HW4Mesh",
 }
 
 const lightboxOptions = {
