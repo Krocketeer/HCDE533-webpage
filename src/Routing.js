@@ -7,6 +7,7 @@ import CookieCutters from "./projects/CookieCutters"
 import CubesTubes from "./projects/CubesTubes";
 import ClipNest from "./projects/ClipNest"
 import Mesh from "./projects/Mesh"
+import Lamp from "./projects/Lamp"
 
 export default function Routing() {
     return <Switch>
@@ -16,6 +17,7 @@ export default function Routing() {
         <Route path="/CubesTubes" exact component={CubesTubes} />
         <Route path="/ClipNest" exact component={ClipNest} />
         <Route path="/Mesh" exact component={Mesh} />
+        <Route path="/Lamp" exact component={Lamp} />
         <Route path="*" component={Home}/>
     </Switch>
 }
