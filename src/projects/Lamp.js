@@ -64,7 +64,7 @@ export default function Lamp() {
                             in the mean time, here's an image of the plan for my lamp. To be continued... :)
                         </p>
                         <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
-                            <img style={{width: "50%", height: "50%"}} id="SeaTransMoodBoard" src={LampPlans} alt="Ender 3 Pro 3D printer" />
+                            <img style={{width: "50%", height: "50%"}} id="SeaTransMoodBoard" src={LampPlans} alt="Lamp Schematics" />
                         </div>
                     </div>
                 </div>
