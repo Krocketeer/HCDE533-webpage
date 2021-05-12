@@ -11,6 +11,7 @@ import CookieCutterCover from "../images/CookieCutters/CookieCuttersCover.png"
 import CubesTubesCover from "../images/CubesTubes/CubesTubesCover.png"
 import ClipNestCover from "../images/ClipNest/ClipNestCover.png"
 import MeshCover from "../images/Mesh/MeshCover.png"
+import LampCover from "../images/Lamp/LampCover2.png"
 
 const HeadingRow = tw.div`flex`;
 const Heading = tw(SectionHeading)`text-gray-900`;
@@ -132,7 +133,7 @@ const assignment4 =()=> ({
     featured: false
 })
 const assignment5 =()=> ({
-    imageSrc: "https://images.unsplash.com/photo-1499678329028-101435549a4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
+    imageSrc: LampCover,
     category: "Assignment 5",
     date: "Assignment 5",
     title: "Lamp",
