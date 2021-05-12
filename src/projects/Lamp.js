@@ -177,7 +177,7 @@ const styles = {
 }
 
 const links = {
-    gitFiles: "https://github.com/Krocketeer/HCDE533-webpage/tree/master/ProjectFiles/HW4Mesh",
+    gitFiles: "https://github.com/Krocketeer/HCDE533-webpage/tree/master/ProjectFiles/HW5Lamp",
 }
 
 const lightboxOptions = {
