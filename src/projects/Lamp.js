@@ -70,7 +70,7 @@ export default function Lamp() {
                             light through the slows in the shade. With this in mind, I started to do some sketches of my
                             ideas, and once that was done, measuring of what would be feasible with callipers.
                             This webpage will be updated once the lamp is complete since I like to do it all at once. So
-                            in the mean time, here's an image of the plan for my lamp. To be continued... :)
+                            in the mean time, here's an image of the plan for my lamp.
                         </p>
                         <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
                             <img style={{width: "50%", height: "50%"}} id="SeaTransMoodBoard" src={LampPlans} alt="Lamp Schematics" />
