@@ -12,6 +12,7 @@ import CubesTubesCover from "../images/CubesTubes/CubesTubesCover.png"
 import ClipNestCover from "../images/ClipNest/ClipNestCover.png"
 import MeshCover from "../images/Mesh/MeshCover.png"
 import LampCover from "../images/Lamp/LampCover2.png"
+import MoldsCover from "../images/Molds/MoldsCover.png"
 
 const HeadingRow = tw.div`flex`;
 const Heading = tw(SectionHeading)`text-gray-900`;
@@ -49,7 +50,7 @@ const LoadMoreButton = tw(PrimaryButton)`mt-16 mx-auto`;
 
 export default ({
                     headingText = "Projects",
-                    posts = [assignment5(), assignment1(), assignment2(), assignment3(), assignment4(), assignment6(), finalProject()]
+                    posts = [assignment6(), assignment1(), assignment2(), assignment3(), assignment4(), assignment5(), finalProject()]
                 }) => {
     const [visible, setVisible] = useState(7);
     const onLoadMoreClick = () => {
@@ -135,20 +136,20 @@ const assignment4 =()=> ({
 const assignment5 =()=> ({
     imageSrc: LampCover,
     category: "Assignment 5",
-    date: "Assignment 5",
+    date: "",
     title: "Lamp",
     description: "Using Rhino, Grasshopper, and all the other tools we learned in previous weeks, design and create a lamp!",
     url: "/Lamp",
-    featured: true
+    featured: false
 })
 const assignment6 =()=> ({
-    imageSrc: "https://images.unsplash.com/photo-1499678329028-101435549a4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
+    imageSrc: MoldsCover,
     category: "Assignment 6",
-    date: "Assignment 6",
-    title: "Assignment 6 Name",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    url: "/",
-    featured: false
+    date: "",
+    title: "Molds and Casts",
+    description: "Using Rhino to 3D print a master shape to create a silicone mold for and create plaster versions of.",
+    url: "/Molds",
+    featured: true
 })
 const finalProject =()=> ({
     imageSrc: "https://images.unsplash.com/photo-1499678329028-101435549a4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
