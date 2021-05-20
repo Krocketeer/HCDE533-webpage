@@ -50,8 +50,9 @@ export default function ProjectProposal() {
                         <div className="info">
                             <h6 tw="text-primary-500">Tools</h6>
                             <div>Cura</div>
+                            <div>Grasshopper</div>
                             <div>Rhino</div>
-                            <div>Silicon</div>
+                            <div>Silicone</div>
                         </div>
                         <div id="problemSpace" style={{paddingBottom: "50px"}}>
                             <h6 tw="text-primary-500">The Goal</h6>
@@ -96,7 +97,9 @@ export default function ProjectProposal() {
                                 to 24 hours to cure as opposed to Smooth-On Oomoo which cures in a much shorter time.
                                 During this curing time, I will aim to print another mold so that I can create silicone
                                 molds twice as fast. This will enable me to achieve the goal of getting 3 silicone ice
-                                molds as fast as I can. If all goes well, I will still have half a week to troubleshoot
+                                molds as fast as I can. I also plan on making different sizes for different size bottles
+                                that I have in my refrigerator so I will use grasshopper to scale to different sizes.
+                                If all goes well, I will still have half a week to troubleshoot
                                 and difficulties that come up. Although half a week doesn't sound like a lot, I will tap
                                 into my power of all nighters (I already have done 3 all nighters at this point in the
                                 quarter so I might as well try to go for a new record) to get the project done on time.
