@@ -98,7 +98,7 @@ export default function IceMolds() {
                             Afterwards, it was straight to the 3D printer where I waited around 24 hours to get the
                             pieces needed to make 4 ice molds. All the files for the mold, which includes Rhino and
                             STLs can be found on
-                            <a href={links.rhinoSTLFiles} style={{color: "rgb(100, 21, 255)"}}> Github</a>.
+                            <a href={links.gitFiles} style={{color: "rgb(100, 21, 255)"}}> Github</a>.
                         </p>
                         <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
                             <div className="BaseCampPersonaLayout">
