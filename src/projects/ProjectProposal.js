@@ -10,17 +10,6 @@ import ScrollArrow from "../components/ScrollArrow";
 import Cover from "../images/Ice/RenderCover.png"
 import Sketch from "../images/Ice/IMG_CE31.jpeg"
 
-import MasterPart from "../images/Molds/Screen Shot 2021-05-07 at 1.54.13 AM.png"
-import MoldDesign from "../images/Molds/Screen Shot 2021-05-07 at 2.15.59 AM.png"
-import MoldNegative from "../images/Molds/Screen Shot 2021-05-18 at 4.56.14 PM.png"
-import Mold from "../images/Molds/IMG_2643.png"
-import SiliconeMold from "../images/Molds/IMG_2644.jpeg"
-import MoldPrep from "../images/Molds/IMG_2673.jpeg"
-import PlasterPrep from "../images/Molds/IMG_2676.jpeg"
-import PlasterPour from "../images/Molds/IMG_2677.jpeg"
-import Anchor from "../images/Molds/IMG_2672.jpeg"
-
-
 const Container = tw.div`relative`;
 // Random Decorator Blobs (shapes that you see in background)
 const DecoratorBlob1 = styled(SvgDecoratorBlob1)`

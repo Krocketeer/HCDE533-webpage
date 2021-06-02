@@ -13,6 +13,7 @@ import ClipNestCover from "../images/ClipNest/ClipNestCover.png"
 import MeshCover from "../images/Mesh/MeshCover.png"
 import LampCover from "../images/Lamp/LampCover2.png"
 import MoldsCover from "../images/Molds/MoldsCover.png"
+import IceMoldsCover from "../images/Ice/RenderCover.png"
 
 const HeadingRow = tw.div`flex`;
 const Heading = tw(SectionHeading)`text-gray-900`;
@@ -50,7 +51,7 @@ const LoadMoreButton = tw(PrimaryButton)`mt-16 mx-auto`;
 
 export default ({
                     headingText = "Projects",
-                    posts = [assignment6(), assignment1(), assignment2(), assignment3(), assignment4(), assignment5(), finalProject()]
+                    posts = [finalProject(), assignment1(), assignment2(), assignment3(), assignment4(), assignment5(), assignment6()]
                 }) => {
     const [visible, setVisible] = useState(7);
     const onLoadMoreClick = () => {
@@ -149,14 +150,14 @@ const assignment6 =()=> ({
     title: "Molds and Casts",
     description: "Using Rhino to 3D print a master shape to create a silicone mold for and create plaster versions of.",
     url: "/Molds",
-    featured: true
+    featured: false
 })
 const finalProject =()=> ({
-    imageSrc: "https://images.unsplash.com/photo-1499678329028-101435549a4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
+    imageSrc: IceMoldsCover,
     category: "Final Project",
-    date: "Final Project",
-    title: "Assignment 7 Name",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    url: "/",
-    featured: false
+    date: "",
+    title: "Spherical Ice Molds",
+    description: "Using Rhino to 3D print a master shape of a sphere to create a silicone mold for spherical ice",
+    url: "/IceMolds",
+    featured: true
 })

@@ -10,6 +10,7 @@ import Mesh from "./projects/Mesh"
 import Lamp from "./projects/Lamp"
 import Molds from "./projects/Molds"
 import ProjectProposal from "./projects/ProjectProposal"
+import IceMolds from "./projects/IceMolds"
 
 export default function Routing() {
     return <Switch>
@@ -22,6 +23,7 @@ export default function Routing() {
         <Route path="/Lamp" exact component={Lamp} />
         <Route path="/Molds" exact component={Molds} />
         <Route path="/ProjectProposal" exact component={ProjectProposal} />
+        <Route path="/IceMolds" exact component={IceMolds} />
         <Route path="*" component={Home}/>
     </Switch>
 }
